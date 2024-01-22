@@ -1,0 +1,36 @@
+.calculator-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input-field {
+    width: calc(100% - 20px); /* Bredden på input-fältet minus padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Se till att padding inte ökar bredden */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .operation-button {
+    flex: 1; /* Låt knapparna dela utrymme jämnt */
+    margin: 0 5px; /* Lägg till lite marginal mellan knapparna */
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .operation-button:hover {
+    background-color: #45a049;
+  }
+  
