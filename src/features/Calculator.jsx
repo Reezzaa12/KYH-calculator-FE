@@ -15,7 +15,7 @@ const Calculator = () => {
   };
 
   const handleCalculate = async (operation) => {
-    const url = `http://calculatorapi-env.eba-qcxrz5pu.eu-north-1.elasticbeanstalk.com/${operation}?num1=${num1}&num2=${num2}`;
+    const url = `http://calculatorapi-env-1.eba-9vp3wv5a.eu-north-1.elasticbeanstalk.com/${operation}?num1=${num1}&num2=${num2}`;
 
     try {
       const response = await fetch(url);
